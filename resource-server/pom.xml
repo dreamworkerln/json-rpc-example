@@ -30,7 +30,15 @@
         <groupId>ru.home.jsonrpc</groupId>
         <version>0.1.0</version>
     </parent>
-
-
     <artifactId>resource-server</artifactId>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
 </project>
