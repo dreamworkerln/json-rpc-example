@@ -10,19 +10,36 @@
             <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.h2database/h2 -->
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <version>1.4.200</version>
+        </dependency>
+
+
         <!-- https://mvnrepository.com/artifact/com.pivovarit/throwing-function -->
         <dependency>
             <groupId>com.pivovarit</groupId>
             <artifactId>throwing-function</artifactId>
             <version>1.5.0</version>
         </dependency>
-        
+
+
+        <!--module protocol -->
         <dependency>
             <groupId>ru.home.jsonrpc</groupId>
             <artifactId>protocol</artifactId>
-            <version>0.1.0</version>
+            <version>${jrpc.protocol.version}</version>
             <scope>compile</scope>
         </dependency>
+
+
     </dependencies>
 
     <parent>
