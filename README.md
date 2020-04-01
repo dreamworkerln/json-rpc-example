@@ -1,4 +1,4 @@
-# json-rpc-example
+# json-rpc-example with Spring Boot
 
 ### JSON-RPC 2.0 Specification  
 JSON-RPC is a stateless, light-weight remote procedure call (RPC) protocol that uses JSON (RFC 4627) as data format.  
