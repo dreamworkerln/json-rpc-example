@@ -11,7 +11,7 @@ https://documenter.getpostman.com/view/9553788/SzYYzdrH?version=latest
 
 or
 ```
-curl --location --request POST 'http://localhost:8080/api/1.0/' \
+curl -v -H "Content-Type: application/json" --request POST 'http://localhost:8080/api/1.0/' \
 --data-raw '{
     "id": 10,
     "method": "calculator.actions.add",
